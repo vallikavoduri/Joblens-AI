@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Node
+node_modules/
+.pnpm-store/
+.yarn/
+dist/
+build/
+.next/
+.cache/
+
+# Env / secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+client_secret*.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML / data
+*.pkl
+*.h5
+*.ckpt
+*.pt
+*.onnx
+data/raw/
+data/processed/
+models/
+mlruns/
+.dvc/cache
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
