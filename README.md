@@ -64,7 +64,8 @@ job-tracker/
 
 ## See also
 
-- [`docs/PROJECT_PLAN.md`](docs/PROJECT_PLAN.md) — 2-week day-by-day build plan
+- [`docs/HANDOFF_NEXT_STEPS.md`](docs/HANDOFF_NEXT_STEPS.md) — **start here if resuming on a new machine** (setup + current state + next phases)
+- [`docs/PROJECT_PLAN.md`](docs/PROJECT_PLAN.md) — phase-by-phase build plan
 - [`docs/LEARNING_ROADMAP.md`](docs/LEARNING_ROADMAP.md) — AI/ML free-resource learning path
 - [`docs/GIT_GUIDE.md`](docs/GIT_GUIDE.md) — practical git workflow
 - [`docs/NOTES.md`](docs/NOTES.md) — design decisions + interview talking points
