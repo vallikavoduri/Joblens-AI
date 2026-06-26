@@ -42,16 +42,17 @@ client_secret*.json
 *.sqlite
 *.sqlite3
 
-# ML / data
+# ML / data — paths are anchored to repo subfolders so they
+# don't accidentally match other folders (e.g. backend/app/models/).
 *.pkl
 *.h5
 *.ckpt
 *.pt
 *.onnx
-data/raw/
-data/processed/
-models/
-mlruns/
+ml/data/raw/
+ml/data/processed/
+ml/models/
+ml/mlruns/
 .dvc/cache
 
 # IDE / OS
